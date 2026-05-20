@@ -1,5 +1,8 @@
-#include <iostream>
+// #include <iostream>
+#include <bits/stdc++.h> // It help to include all the standard library header files in one line
 using namespace std;
+
+
 
 int main()
 {
