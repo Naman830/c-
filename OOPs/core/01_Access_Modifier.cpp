@@ -27,11 +27,13 @@ public:
 
     // We can create a function for print the private data member salary
     // setter to set the private value
-    void setSalary(double s){
+    void setSalary(double s)
+    {
         salary = s;
     }
-    // getter to get the private value 
-    double getSalary(){
+    // getter to get the private value
+    double getSalary()
+    {
         return salary;
     }
 };
