@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -13,5 +13,10 @@ int main(){
     double d = 3.199999999999999;
     // long double store 10 bytes of data 
     long double ld = 2.9099999999999999999999999;
+
+    // chracter data types
+    string s1;
+    getline(cin, s1);
+    cout << s1;
     return 0;
 }
