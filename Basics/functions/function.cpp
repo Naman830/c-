@@ -5,6 +5,14 @@ using namespace std;
 // Function are used to increase useablity of code
 // function are used to use same code multiple times
 
+// void --> which does not return anything 
+// return
+// paramertized
+// non parameterized
+void printName(){
+    cout << "Hello World" << endl;
+}
 int main(){
+    printName();
     return 0;
 }
