@@ -1,0 +1,223 @@
+Super Easy Revision Notes 📝 OOP
+Meaning
+Features
+Advantages
+
+What is OOP?
+Programming by thinking about real-world objects.
+
+In OOP:
+Properties → called Data / Variables
+Actions → called Functions / Methods
+
+So:
+
+Dog
+ ├── Name
+ ├── Color
+ ├── Age
+ ├── Bark()
+ ├── Run()
+ └── Eat()
+
+
+Why OOP Was Created?
+Before OOP, programming was messy 😵
+
+Everything was mixed together like:
+Clothes + toys + food all thrown in one room
+Hard to find anything.
+
+OOP organizes code into objects like:
+
+One cupboard for clothes
+One box for toys
+One shelf for books
+
+Much cleaner ✅
+
+
+
+
+
+
+
+
+
+
+
+
+
+Features of OOP
+Features means: “Special powers of OOP”
+
+There are mainly 4 super famous features.
+
+1. Class 🏠
+A class is a blueprint or design.
+
+Example:
+
+Blueprint of a car.
+
+It tells:
+
+car has wheels
+car has color
+car can move
+
+But it is NOT a real car yet.
+
+Think:
+
+Class = Recipe
+Object = Real Cake
+
+2. Object 🚗
+Object is the real thing made from class.
+
+Example:
+
+Class = Car
+Objects = BMW, Audi, Ferrari
+
+All are cars but different.
+
+
+3. Encapsulation 📦
+“Keeping data and functions together inside one box.”
+
+Example:
+
+A medicine capsule 💊
+Everything is packed inside.
+
+Same in OOP:
+
+Student
+ ├── Name
+ ├── Roll Number
+ └── Study()
+
+Everything related to student stays together.
+This keeps code safe and organized.
+
+4. Inheritance 👨‍👦
+“Child getting qualities from parent.”
+
+Example:
+
+Animal
+ └── Dog
+
+Animal can:
+eat
+sleep
+
+Dog automatically gets:
+eat
+sleep
+
+And dog can also add:
+bark
+
+So dog reuses animal features.
+This saves time ⏳
+
+
+5. Polymorphism 🎭
+Poly = many
+Morph = forms
+
+Means:
+“One thing behaving differently.”
+
+Example:
+You say:
+
+Sound()
+Dog → Bark
+Cat → Meow
+Cow → Moo
+
+Same function name:
+Sound() Different behavior.
+
+
+6. Abstraction 🎮
+“Hide unnecessary details.”
+
+Example:
+
+You use Instagram.
+
+Do you know:
+
+how servers work?
+database works?
+algorithms work?
+
+No 😭
+
+You just use buttons.
+
+Same in OOP:
+We hide difficult internal details.
+
+
+
+
+
+
+
+Advantages of OOP
+
+
+1. Code Reusability ♻️
+
+Reuse old code again and again.
+
+Example:
+Dog can reuse Animal features.
+
+Less work.
+
+2. Easy to Understand 📚
+
+Code looks like real life.
+
+So programmers understand faster.
+
+3. Easy to Manage 🧹
+
+Everything stays organized.
+
+No spaghetti code 🍝
+
+4. Security 🔒
+
+Using encapsulation, we can hide important data.
+
+Example:
+ATM hides your PIN.
+
+5. Saves Time ⏳
+
+Inheritance and reusable code reduce effort.
+
+6. Easy to Update 🔧
+
+Want to change one thing?
+
+Just update one class.
+
+Everything improves automatically.
+
+
+
+
+
+
+
+
+
