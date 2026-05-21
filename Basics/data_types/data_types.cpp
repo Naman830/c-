@@ -1,17 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main()
+{
     // DATA TYPES FOR NUMBERS
-    // int 
+    // int 4 bytes 
     int a = 10;
-    // long
-    long x = 1000000000;
+    // long 8 bytes
+    long int x = 1000000000;
     // float store 4 bytes of data
     float f = 3.14;
-    //Double store 8 bytes of data
+    // Double store 8 bytes of data
     double d = 3.199999999999999;
-    // long double store 10 bytes of data 
+    // long double store 12 bytes of data
     long double ld = 2.9099999999999999999999999;
 
     // string and getline data types
@@ -20,9 +21,8 @@ int main(){
     cout << s1;
     return 0;
 
-    //char
+    // char store 1 bytes 
     char ch;
     cin >> ch;
     cout << ch;
-
 }
