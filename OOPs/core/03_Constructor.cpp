@@ -32,10 +32,13 @@ public:
     // {
     //     department = "Computer Science";
     // };
-
+      
     // Parameterized constructor
     Teacher(string n, string d, string s, double sal){
-
+        name = n;
+        department = d;
+        subject = s;
+        salary = sal;
     }
     string name;
     string department;
@@ -50,20 +53,28 @@ public:
     {
         salary = s;
     }
-    double getSalary()
-    {
+    
+    double getSalary(){
         return salary;
+    }
+
+    void getInfo(){
+        cout << "name : " << name << endl;
+        cout << "subject : " << subject << endl;
     }
 };
 
 int main()
 {
-    Teacher t1; // Default constructor is called here
-    t1.name = "Naman Singla";
-    t1.subject = "DSA";
-    t1.setSalary(50000);
-    t1.changeDepartment("Computer Science");
+    // Non-parameterized way
+    // Teacher t1; // Default constructor is called here
+    // t1.name = "Naman Singla";
+    // t1.subject = "DSA";
+    // t1.setSalary(50000);
+    // t1.changeDepartment("Computer Science");
 
-    cout << "Department: " << t1.department << endl;
+    // Parametrized way
+    Teacher t1("Naman", "It", "C++", 250000);
+    t1.getInfo();
     return 0;
 }
