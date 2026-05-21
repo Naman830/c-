@@ -14,9 +14,15 @@ int main(){
     // long double store 10 bytes of data 
     long double ld = 2.9099999999999999999999999;
 
-    // chracter data types
+    // string and getline data types
     string s1;
     getline(cin, s1);
     cout << s1;
     return 0;
+
+    //char
+    char ch;
+    cin >> ch;
+    cout << ch;
+
 }
