@@ -9,10 +9,14 @@ using namespace std;
 // return
 // paramertized
 // non parameterized
-void printName(){
-    cout << "Hello World" << endl;
+void printName(string name){
+    cout << "Hello "  << name << endl;
 }
+
+
 int main(){
-    printName();
+    string name;
+    cin >> name;
+    printName(name);
     return 0;
 }
