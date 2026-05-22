@@ -1,54 +1,92 @@
-// (this) is a special hidden pointer available inside every non-static member function.
-// It stores the address of the current object.
-
 #include "bits/stdc++.h"
 using namespace std;
 
-class Teacher
-{
-private:
-    double salary;
+// Problem Understanding of "this" pointer
 
+class Student
+{
 public:
     string name;
-    string department;
-    string subject;
 
-    // SO what is the problem that if we want same name of parameter in function as object so it's hard to rember it's address
-    Teacher(string name, string department, string subject, double salary)
+    // Constructor-like function
+    void setName(string name)
     {
-        // this->name is a object value and = name is the parameter value
+        /*
+        Problem:
+
+        Here both variables are named "name".
+
+        1. First "name"  -> object's data member
+        2. Second "name" -> local parameter variable
+
+        Because local variables get higher priority,
+        compiler thinks BOTH are the parameter variable.
+
+        So this:
+
+            name = name;
+
+        actually becomes:
+
+            parameter = parameter;
+
+        Object's original variable never changes.
+
+        ------------------------------------------------
+
+        Solution:
+
+        "this" pointer points to the CURRENT object
+        which called the function.
+
+        Example:
+
+            s1.setName("Naman");
+
+        Internally compiler sends:
+
+            this = &s1
+
+        So:
+
+            this->name
+
+        means:
+
+            current object's name variable
+
+        Arrow operator (->) is used because
+        "this" is a POINTER.
+        */
+
         this->name = name;
-        this->department = department;
-        this->subject = subject;
-        this->salary = salary;
+
+        /*
+        Meaning:
+
+        object's name = parameter name
+
+        OR
+
+        s1.name = "Naman"
+        */
     }
 
-    void changeDepartment(string newDept)
+    void display()
     {
-        department = newDept;
-    }
-
-    void setSalary(double s)
-    {
-        salary = s;
-    }
-
-    double getSalary()
-    {
-        return salary;
-    }
-
-    void getInfo()
-    {
-        cout << "name : " << name << endl;
-        cout << "subject : " << subject << endl;
+        cout << "Name: " << name << endl;
     }
 };
 
 int main()
 {
-    Teacher t1("Naman", "It", "C++", 250000);
-    t1.getInfo();
+    Student s1;
+
+    // Function call
+    s1.setName("Naman");
+
+    // Output
+    s1.display();
+
     return 0;
 }
