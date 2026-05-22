@@ -89,6 +89,7 @@ int main()
     // t1.getInfo();
 
     // Copy constructor
+    // This is a shallow copy of an object copies all of the memeber values from one object to another 
     Teacher t2(t1); // default copy constructor & custom copy consturtor
     t2.getInfo();
     return 0;
