@@ -31,3 +31,19 @@ age = 21;
 Constant: A constant is a value that cannot be changed.
 const int x = 10;
 
+Operators: Operators are symbols used to perform operations.
+
+1. Arithmetic Operators 
++  -  *  /  %
+
+2. Relational Operators
+<  >  <=  >=  ==  !=
+
+3. Logical Operators
+&&  ||  !
+
+4. Assignment Operators
+=  +=  -=  *=  /=
+
+5. Increment and Decrement
+++  --
