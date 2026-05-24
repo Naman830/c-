@@ -1,0 +1,49 @@
+Control statements control the flow of a program.
+
+There are mainly three types:
+
+Sequential construct
+Decision-making construct
+Looping construct
+
+
+1. Sequential Construct
+Statements execute one by one.
+
+cout << "Hello";
+cout << "World";
+
+
+2. Decision-Making Construct
+Used when we want to make decisions.
+
+Example:
+
+int age = 18;
+
+if (age >= 18) {
+    cout << "Eligible to vote";
+} else {
+    cout << "Not eligible";
+}
+
+if
+if-else
+else-if
+switch
+
+
+3. Loop Construct
+Used to repeat code.
+
+Types:
+
+for loop
+while loop
+do-while loop
+
+Example:
+
+for (int i = 1; i <= 5; i++) {
+    cout << i << endl;
+}

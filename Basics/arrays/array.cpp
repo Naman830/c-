@@ -1,3 +1,4 @@
+// An array is a collection of similar type of data stored in continuous memory locations.
 #include <bits/stdc++.h>
 using namespace std;
 
