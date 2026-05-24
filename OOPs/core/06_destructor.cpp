@@ -39,8 +39,10 @@ public:
 };
 int main()
 {
-
-    Student s1;
-
+    {
+        Student s1;
+    }
+// Look outside block when inner destructor ends it automatically print then outside block
+    cout << "Outside block";
     return 0;
 }

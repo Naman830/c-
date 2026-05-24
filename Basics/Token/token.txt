@@ -1,0 +1,33 @@
+A token is a smallest element of a program which is meaningfult to the complier. token act as a building block of the proggram
+
+Types of Tokens in C++
+
+Keywords: are reserved words in C++.. We cannot use keywords as variable names.
+
+Example:
+int, float, class, public, private, return, if, else
+
+Wrong: int class = 10;
+Correct: int marks = 10;
+
+
+Identifier: is the name given to variables, functions, classes, or objects.
+
+Example:
+int age;
+class Student;
+void display();
+
+Rules:
+It can contain letters, digits, and underscore.
+It cannot start with a digit.
+It cannot be a keyword.
+It is case-sensitive.
+
+Variable: A variable is a named memory location whose value can change.
+int age = 20;
+age = 21;
+
+Constant: A constant is a value that cannot be changed.
+const int x = 10;
+
