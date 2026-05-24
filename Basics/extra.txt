@@ -1,0 +1,41 @@
+Structure:
+A structure is a user-defined data type that can store different types of data.
+
+struct Student {
+    int rollNo;
+    string name;
+    float marks;
+};
+
+Example:
+
+Student s1;
+s1.rollNo = 1;
+s1.name = "Aman";
+s1.marks = 85.5;
+
+
+Union:
+A union is also a user-defined data type, but all members share the same memory.
+
+union Data {
+    int age;
+    float salary;
+};
+
+In union, only one value can be used properly at a time.
+
+
+Enumeration:
+Enumeration is used to give names to integer constants.
+
+enum Week {
+    Monday,
+    Tuesday,
+    Wednesday
+};
+
+Example:
+
+Week day;
+day = Monday;
