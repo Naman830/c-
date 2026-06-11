@@ -16,3 +16,12 @@ naman.displayFullName = "yo yo" + "chico";
 
 console.log(chico);
 console.log(naman);
+
+// The Object() constructor
+// The Object() constructor is also able to generate object instances from any JavaScript expression, as shown by the following code:
+
+var number = new Object(12);
+var anotherNumber = new Object(3 * 2);
+var string = new Object("test");
+
+console.log(anotherNumber);
