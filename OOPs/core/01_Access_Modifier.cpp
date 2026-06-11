@@ -6,7 +6,7 @@ using namespace std;
 // ACCESS MODIFIERS
 // private -----> Data and Methods accessible only within the class
 // public -----> data and methods accessible to everyone
-// protected -----> data and methods accessible inside the class and it's derived classes
+// protected -----> data and methods accessible inside the class and it's derived(child) classes
 
 class Teacher
 {
